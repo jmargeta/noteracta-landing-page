@@ -11,7 +11,7 @@ import "~/styles/index.css";
 const { site } = Astro;
 const image = new URL("social.jpg", site);
 const description =
-  "Build fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.";
+  "Take notes, faster. Noteracta is a new kind of note taking that blends with your life. Take notes anywhere, on anything.";
 ---
 
 <html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
@@ -21,7 +21,7 @@ const description =
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-    <title>Astro Landing Page</title>
+    <title>Noteracta Landing Page</title>
     <meta name="description" content={description} />
 
     <!-- fonts -->
@@ -82,11 +82,11 @@ const description =
     <Header />
     <Splash />
     <div class="px-8 py-32 space-y-24">
-      <Intro />
+      <!-- <Intro />
       <Features />
       <Compatibility />
-      <Showcase />
+      <Showcase /> -->
     </div>
-    <Footer />
+    <!-- <Footer /> -->
   </body>
 </html>
